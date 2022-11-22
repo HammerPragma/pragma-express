@@ -2,10 +2,10 @@
   "name": "pragma-express",
   "version": "1.0.8",
   "description": "",
-  "main": "dist/index.js",
+  "main": "index.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "npm run build && nodemon --watch src --exec ts-node ./demo/index.ts",
+    "dev": "nodemon --watch src --exec ts-node ./demo/index.ts",
     "lint": "eslint . --ext .ts"
   },
   "repository": {
