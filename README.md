@@ -1,7 +1,8 @@
 # pragma-express
 
 uso 
-```import { Service } from "pragma-express"
+```
+import { Service } from "pragma-express"
 import {Request, Response, Router} from 'express'
 
 const router: Router = Router()
