@@ -2,7 +2,7 @@
   "name": "pragma-express",
   "version": "1.0.9",
   "description": "",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "dev": "nodemon --watch src --exec ts-node ./demo/index.ts",
